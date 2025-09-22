@@ -24,7 +24,7 @@ python comments-parser.py <src_dir> <output.json>
   "directory": "src_dir_pathr",
   "analyzeTime": "yyyy-mm-dd hh:mm:ss",
   "files": {
-    "src_dir_pathr/example.js": [
+    "src_dir_path/example.js": [
       {
         "comment": "comment 1",
         "line": 1
@@ -34,7 +34,7 @@ python comments-parser.py <src_dir> <output.json>
         "line": 16
       }
     ],
-    "src_dir_pathr/test.py": [
+    "src_dir_path/test.py": [
       {
         "comment": "comment 1",
         "line": 10
