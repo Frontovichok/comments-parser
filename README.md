@@ -24,6 +24,11 @@ python comments-parser.py <src_dir> <output.json>
 {
   "directory": "src_dir_pathr",
   "analyzeTime": "yyyy-mm-dd hh:mm:ss",
+  "statistics": {
+    "totalFiles": 8596,
+    "processedFiles": 8596,
+    "totalComments": 425829
+  },
   "files": {
     "src_dir_path/example.js": [
       {
