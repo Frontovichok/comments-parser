@@ -323,7 +323,6 @@ def main():
     # Инициализация парсера
     parser = CommentParser()
 
-    # Поиск файлов
     print("Поиск исходных файлов...")
     source_files = parser.find_source_files(str(input_dir))
     total_files = len(source_files)
@@ -335,7 +334,6 @@ def main():
     print(f"Найдено файлов: {total_files}")
     print("Обработка файлов...")
 
-    # Обработка файлов
     files_comments = {}
     total_comments = 0
 
